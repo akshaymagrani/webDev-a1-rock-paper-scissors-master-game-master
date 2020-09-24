@@ -32,7 +32,7 @@ body{
 header{
     width: 100%;
     transform: scale(0.8);
-    margin: 50px auto;
+    margin: 50px auto 20px;
     border: 3px solid var(--headerOutline);
     border-radius: 20px;
     font-size: large;
@@ -62,7 +62,7 @@ header{
 @media only screen and (min-width : 626px) {
     header{
         width: 70%;
-        margin: 50px auto;
+        margin: 50px auto 50px;
         scale: 1;
         font-size: xx-large;
     }
@@ -184,6 +184,7 @@ header{
     height: 100px;
     border-radius: 50%;
     padding: 10px;
+    transform: translateX(65%);
 }
     /*animation-name: vBorder;
     animation-duration: 1s;
@@ -205,6 +206,7 @@ header{
 }*/
 #housePicked{
     margin: 0 auto 0 60px;
+    transform: translateX(89%);
 }
 
 .youPicked, .housePicked{
@@ -234,12 +236,12 @@ header{
     }
 }
 #indicator{
-    margin: 150px auto 0;
+    margin: 75px auto 0;
     text-align: center;
 }
 @media only screen and (min-width: 576px){
     #indicator{
-        margin: 170px auto 0;    
+        margin: 130px auto 0;    
     }
 }
 #indicator p{
@@ -294,9 +296,9 @@ header{
 }
 .rulesExplaination{
     max-width: 375px;
-    height: 40%;
+    height: 50%;
     width: 100%;
-    margin: 40% auto;
+    margin: 20% auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
@@ -329,9 +331,9 @@ header{
 @media only screen and (min-width: 576px){
     .rulesWrapper{
         max-width: 500px;
-        height: 50%;
+        height: 60%;
         width: 100%;
-        margin: auto;
+        margin: -40px auto;
         position: absolute;
         transform: translate(-50%,60%);
         left: 50%;
